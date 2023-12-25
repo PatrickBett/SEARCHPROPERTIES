@@ -7,7 +7,7 @@ const FavoritesList = ({ favorites, onRemove, onClear }) => {
       <h2>Favorites</h2>
       <ul>
         {favorites.map((favorite) => (
-          <li key={favorite.id}>
+          <li key={favorite.id} className='fav-list'>
             <div>Type: {favorite.type}</div>
             <div>Price: {favorite.price}</div>
             <div>Location: {favorite.location}</div>
