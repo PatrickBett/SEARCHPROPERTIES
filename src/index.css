@@ -1,0 +1,55 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;  
+  font-family: sans-serif;
+}
+body{
+  background: #222;
+}
+#root{
+  background-color: rgb(189, 189, 250);
+  height: fit-content;
+  width: 90%;
+  max-width: 470px;
+  background: linear-gradient(135deg,#00feba,#5b548a);
+  color: #fff;
+  margin: 100px auto 0;
+  border-radius: 20px;
+  padding: 40px 35px;
+}
+/* .main-app-div{
+  
+  
+  
+} */
+
+#remove-favorite{
+  background-color: red;
+  height: 40px;
+  width: fit-content;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+h2{
+  color: orangered;
+  text-align: center;
+}
+#house-img{
+  margin-left:28px;
+}
+#search-input{
+  height: 30px;
+  border-radius: 3px;
+  border: none;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+#searchBtn{
+  height: 30px;
+  border-radius: 3px;
+  border: none;
+  margin-left: 4px;
+}
