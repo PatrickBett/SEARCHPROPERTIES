@@ -3,7 +3,7 @@ import React from 'react';
 
 const FavoritesList = ({ favorites, onRemove, onClear }) => {
   return (
-    <div>
+    <div className='favorite-lists'>
       <h2>Favorites</h2>
       <ul>
         {favorites.map((favorite) => (

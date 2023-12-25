@@ -3,7 +3,7 @@ import React from 'react';
 
 const PropertyDetails = ({ property }) => {
   return (
-    <div>
+    <div className='property-details'>
       <h2>Property Details</h2>
       <div id='house-img'><img src={property.picture} /></div>
       <div>Type: {property.type}</div>

@@ -23,7 +23,7 @@ const SearchForm = ({ onSearch }) => {
   };
 
   return (
-    <div>
+    <div className='search-properties'>
       <h2>Search Properties</h2>
       {/* Add your form elements here */}
       <label>Type:</label>
