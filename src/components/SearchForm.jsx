@@ -35,7 +35,6 @@ const SearchForm = ({ onSearch }) => {
       </select>
       <br />
       
-
       <label>Min Price:</label>
       <input type="text" name="minPrice"  value={formData.minPrice} onChange={handleChange} />
       <br/>
@@ -44,7 +43,7 @@ const SearchForm = ({ onSearch }) => {
       <input type="text" name="maxPrice"  value={formData.maxPrice} onChange={handleChange} />
       <br/>
 
-       <label>Min Bedrooms:</label>
+      <label>Min Bedrooms:</label>
       <select name="minBedrooms" value={formData.minBedrooms} onChange={handleChange}>
         <option value="">Select</option>
         <option value="1">1 Bedroom</option>
@@ -55,8 +54,7 @@ const SearchForm = ({ onSearch }) => {
       </select>
       <br />
 
-
-       <label>Max Bedrooms:</label>
+      <label>Max Bedrooms:</label>
       <select name="maxBedrooms" value={formData.maxBedrooms} onChange={handleChange}>
         <option value="">Select</option>
         <option value="1">1 Bedroom</option>
@@ -66,6 +64,11 @@ const SearchForm = ({ onSearch }) => {
         <option value="5">5 Bedrooms</option>
       </select>
       <br />
+
+      <label>Postcode:</label>
+      <input type="text" name="postcode" value={formData.postcode} onChange={handleChange} />
+      <br />
+
       {/* Add other form elements similarly */}
       <button onClick={handleSearch} id='searchBtn'>Find Properties</button>
     </div>
