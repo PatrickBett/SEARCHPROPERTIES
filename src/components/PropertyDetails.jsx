@@ -6,7 +6,16 @@ const PropertyDetails = ({ property }) => {
     <div className='property-details'>
       <h2>Property Details</h2>
       <div id='house-img'><img src={property.picture} /></div>
+      <div className='property-list-images'>
+        <div ><img src={property.img} id='added-image'/></div>
       <div ><img src={property.img} id='added-image'/></div>
+      <div ><img src={property.img} id='added-image'/></div>
+      <div ><img src={property.img} id='added-image'/></div>
+      <div ><img src={property.img} id='added-image'/></div>
+      <div ><img src={property.img} id='added-image'/></div>
+      <div ><img src={property.img} id='added-image'/></div>
+
+      </div>
       <div>Type: {property.type}</div>
       <div>Price: {property.price}</div>
       <div>Location: {property.location}</div>
