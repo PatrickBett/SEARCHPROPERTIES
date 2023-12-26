@@ -43,9 +43,9 @@ h2{
   text-align: center;
 
 }
-#house-img{
+/* #house-img{
   margin-left:28px;
-}
+} */
 #search-input{
   height: 30px;
   border-radius: 3px;
@@ -94,6 +94,19 @@ h2{
   height: 50px;
 }
 .property-list-images{
-  display: flex;
-  justify-content: space-between;
-}
+    display: flex;
+      justify-content: space-between;
+      /* Adjust as needed: space-between, space-around, center, etc. */
+      align-items: center;
+      /* Align items vertically in the center, adjust as needed */
+  }
+
+.property-list-images img {
+      max-width: 100%;
+        /* Ensure images don't exceed the container width */
+        height: auto;
+        margin-right: 8px;
+        /* Adjust the margin between images */
+        border-radius: 8px;
+        /* Optional: Add rounded corners */
+    }
