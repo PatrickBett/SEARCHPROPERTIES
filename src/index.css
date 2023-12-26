@@ -115,7 +115,8 @@ h2{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 50vh;
+  height: 40vh;
+  margin-bottom: 10px;
   /* Optional: Set the container height to 100% of the viewport height */
 }
 
